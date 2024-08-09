@@ -11,20 +11,17 @@
 
 body {
 
-    background-color: #8a51fc;
+    background-color: #2f4538;
 
 }
 
 .logo {
-
     width: 300px;
     display: block;
     margin: 20px auto;
+    border-radius: 50px 20px;
+
 }
-
-
-
-
 
 main {
     width: 375px;
@@ -32,12 +29,10 @@ main {
     border-radius: 20px;
     margin: 0 auto 40px;
     padding: 44px 24px 23px;
-
-
+    border-radius: 50px 20px;
 }
 
 label {
-
     color: #777777;
     font-weight: 400;
     font-size: 14px;
@@ -46,10 +41,9 @@ label {
 
 select,
 input {
-
     background: #ffffff;
     border: 1px solid #bbbbbb;
-    border-radius: 4px;
+    border-radius: 25px;
     height: 55px;
     width: 100%;
     margin-bottom: 24px;
@@ -65,7 +59,7 @@ input {
 button {
 
     background: #772fd3;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 100%;
     border: none;
     height: 48px;
@@ -109,7 +103,7 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    
+
 
 }
 
@@ -117,7 +111,7 @@ section {
 
     color: #777777;
     font-size: 14px;
-    
+
 
 }
 
