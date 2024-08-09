@@ -46,13 +46,13 @@ const currencyImage = document.querySelector(".currency-img")
 
 if (currencySelect.value == "dolar") {
     currencyName.innerHTML = "Dólar americano"
-    currencyImage.src = "./img/dolar.png"
+    currencyImage.src = "./src/img/dolar.png"
 }
 
 
 if (currencySelect.value == "euro") {
     currencyName.innerHTML = "Euro"
-     currencyImage.src = "./img/euro.png"
+     currencyImage.src = "./src/img/euro.png"
 }
 
 convertValues()
