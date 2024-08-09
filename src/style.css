@@ -11,7 +11,7 @@
 
 body {
 
-    background-color: #2f4538;
+    background-color: #6f05fbef;
 
 }
 
@@ -115,7 +115,7 @@ section {
 
 }
 
-.valor-moeda {
+.currency-value-to-convert, .currency-value {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
