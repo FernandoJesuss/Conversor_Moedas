@@ -11,7 +11,7 @@
 
 body {
 
-    background-color: #8a51fc;
+    background-color:rgb(93, 38, 161) ;
 
 }
 
@@ -19,8 +19,7 @@ body {
     width: 300px;
     display: block;
     margin: 20px auto;
-    /* border-radius: 50px 20px; */
-
+    border-radius: 50px 50px;  
 }
 
 main {
@@ -120,4 +119,9 @@ section {
     font-weight: 700;
     font-size: 20px;
 
+}
+
+
+@media screen and (max-width:767px) {
+    
 }
