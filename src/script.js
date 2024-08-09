@@ -7,8 +7,6 @@ function convertValues() {
 
     const currencyValueConvrted = document.querySelector(".currency-value") // Outra moedas
 
-
-
     const dolarToday = 5.5;
 
     const convertedValue = inputCurrencyValue / dolarToday;
@@ -18,10 +16,15 @@ function convertValues() {
         currency: "BRL"
     }).format(inputCurrencyValue)
 
-    
-     currencyValueConvrted.innerHTML = convertedValue
 
-   
+    currencyValueConvrted.innerHTML = new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: "USD"
+
+
+    }).format(convertedValue)
+
+
 }
 
-  convertButton.addEventListener("click", convertValues);
+convertButton.addEventListener("click", convertValues);
