@@ -10,16 +10,14 @@
 }
 
 body {
-
-    background-color:rgb(93, 38, 161) ;
-
+    background-color: rgb(93, 38, 161);
 }
 
 .logo {
     width: 300px;
     display: block;
     margin: 20px auto;
-    border-radius: 50px 50px;  
+    border-radius: 50px 50px;
 }
 
 main {
@@ -35,7 +33,6 @@ label {
     color: #777777;
     font-weight: 400;
     font-size: 14px;
-
 }
 
 select,
@@ -52,11 +49,9 @@ input {
     font-size: 16px;
     color: #555555;
     cursor: pointer;
-
 }
 
 button {
-
     background: #772fd3;
     border-radius: 15px;
     width: 100%;
@@ -66,21 +61,17 @@ button {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-
 }
 
 button:hover {
     opacity: 0.8;
-
 }
 
 button:active {
     opacity: 0.6;
-
 }
 
 section {
-
     border: 1px solid #772fd3;
     border-radius: 20px;
     margin-top: 36px;
@@ -91,37 +82,104 @@ section {
 }
 
 .seta {
-
     margin: 15px 0;
-
 }
 
 .box {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
-
-
 }
 
 .moeda {
-
     color: #777777;
     font-size: 14px;
-
-
 }
 
-.currency-value-to-convert, .currency-value {
+.currency-value-to-convert,
+.currency-value {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
-
 }
 
-
 @media screen and (max-width:767px) {
-    
+
+    .logo {
+        width: 250px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 50px 50px;
+    }
+
+    main {
+        width: 360px;
+        background: #f4f4f4;
+        border-radius: 20px;
+        margin: 0 auto 40px;
+        padding: 44px 24px 23px;
+        border-radius: 50px 50px;
+    }
+
+    section {
+        border: 1px solid #772fd3;
+        border-radius: 20px;
+        margin-top: 36px;
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .seta {
+        margin: 15px 0;
+        /* padding: 25px; */
+        transform: rotate(-90deg);
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin: auto;
+    }
+
+    select,
+    input {
+        background: #ffffff;
+        border: 1px solid #bbbbbb;
+        border-radius: 13px;
+        height: 55px;
+        width: 100%;
+        margin-bottom: 20px;
+        appearance: none;
+        padding: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #555555;
+        cursor: pointer;
+    }
+
+    button {
+        background: #772fd3;
+        border-radius: 13px;
+        width: 100%;
+        border: none;
+        height: 48px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    button:active {
+        opacity: 0.6;
+    }
+
 }
