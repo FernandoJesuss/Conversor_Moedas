@@ -105,7 +105,7 @@
 <div align="center">  
   
 
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/Platafomas.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/Conversor_Moedas/blob/main/src/img/Banner_inicia.png" width="" height=""/>
 
 
 
@@ -113,47 +113,25 @@
 <br>
 
 <p align="left">
-●	Ao clicar no botão “Comprar Agora”, o usuário será direcionado para uma página de cadastro, onde poderá registrar seu nome, sobrenome e e-mail para a pré-venda do veículo.</p> 
+●	Ao clicar no botão “Converter”, os valores serão convertidos para a moeda escolhida e exibidos abaixo. Isso facilita a visualização do resultado da conversão.</p> 
 
 <div align="center">  
   
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro_1.png" width="" height=""/>
+<img src="https://github.com/FernandoJesuss/Conversor_Moedas/blob/main/src/img/convert_smart.png" width="" height=""/>
   
 </div>
 <br>
-<p align="left">
-●	Ao clicar no botão “Agendar Test-Drive”, o usuário será direcionado para uma página de cadastro, onde poderá registrar seu nome, sobrenome e e-mail para agendar um test-drive do veículo.</p>
 
-<div align="center">  
-  
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_cadastro_1.png" width="" height=""/>
-
-</div>
-<br>
-<p align="left">●	o site conta com mais duas paginas mostrando os modelos dos carro "Modelo 3".</p>
-<div align="center">  
-  
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_model__3.png" width="" height=""/>
-
-</div>
-<br>
-<p align="left">●	 E na parte final do site o "Modelo X".</p>
-
-<div align="center">  
-  
-<img src="https://github.com/FernandoJesuss/ProjetosDev-Tesla/blob/main/img/pg_final_1.png" width="" height=""/>
-
-</div>
 <br><br>
 <h4 align="left">2.1.	Marcos</h4>
 <p align="left">Os marcos do projeto e suas datas são apresentados na tabela abaixo:</p>
 
 |     Marcos do Projeto       | Data Término| Entregáveis                                 
 |           :---:             |   :---:     |   :---:                    
-| Inicio do projeto           | 10/07/2024  | 10/07/2024       
-| Escopo do site              | 11/07/2024  | 11/07/2024 
-| Wire-frame do site          | 12/07/2024  | 12/07/2024 
-| Fim do desenvolvimento site | 15/07/2024  | 15/07/2024           
+| Inicio do projeto           | 09/08/2024  | 09/08/2024       
+| Escopo do site              | 09/08/2024  | 09/08/2024 
+| Wire-frame do site          | 09/08/2024  | 09/08/2024 
+| Fim do desenvolvimento site | 09/08/2024  | 09/08/2024           
 
 <br>
 <h4 align="left">3.	Equipe do Projeto</h4>
